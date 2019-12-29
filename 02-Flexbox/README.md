@@ -35,3 +35,11 @@ If we leave off height and width properties, each box will shrink to be as small
 ## Default Child Alignment
 
 By default child elements align themselves along the parents cross-axis
+
+## flex-grow
+
+Just like *flex*, **flex-grow** also makes sure that the item to which we add the property to will grow to take up as much space as it can. The difference is that **flex-grow** works a little bit differently internally, it is more flexible.
+
+**flex** takes all of the available space in all of the directions that it can.
+
+**flex-grow** gives the container the ability to grow to take as much space as it can get, but it will keep the other behavior of its container. For example if **flex-grow:1** is applied to a **ScrollView**, it will keep the content scrollable and will not exceed the boundaries of the screen.
