@@ -39,7 +39,7 @@ yarn react-native link
 
 Also verify that all of the assets are included in the *info.plist* file.
 
-3. Recompile the project. **If the build fails with an error about multiple info.plist files or duplicates of the .ttf files, go into the Project Build Phases/Copy Bundle Resources section and delete the info.plist file. This will need to be done in the main app and the tvOS app as well.** NOTE: deleting the files from the Copy Bundle Resources section may cause the App and tvOSApp to become unchecked as targets in the info.plist file, this isn't an issue as long as the fonts/icons will load.
+3. Recompile the project. **If the build fails with an error about multiple info.plist files or duplicates of the .ttf files, go into the Project Build Phases/Copy Bundle Resources section and delete the info.plist file and the .ttf files. This will need to be done in the main app and the tvOS app as well.** NOTE: deleting the files from the Copy Bundle Resources section may cause the App and tvOSApp to become unchecked as targets in the info.plist file, this isn't an issue as long as the fonts/icons will load.
 
 ### Android
 
